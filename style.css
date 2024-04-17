@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "Figtree";
+	src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    width: 380px;
+    height: 530px;
+    position: absolute;
+    display: flex;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+}
+
+.img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+p {
+    font-size: 1;
+}
+
+.learning {
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: 10px 15px;
+    margin-top: 25px;
+	margin-bottom: 5px;
+    width: fit-content;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    border: 2px solid hsl(0, 0%, 7%);
+}
+
+.learning:hover {
+    color: white;
+    background-color: hsl(47, 88%, 73%);
+}
+
+.date {
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+.title {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.simpletext {
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    margin-top: 1px;
+    line-height: 25px;
+    font-size: 1.05em;
+}
+
+.divperfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.imgperfil {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.textme {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 400px) {
+	.card {
+		width: 300px;
+		height: 475px;
+	}
+}
